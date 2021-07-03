@@ -1,4 +1,4 @@
-import './shapes.css'
+import "./shapes.css";
 
 const Shapes = () => {
   function getRandomLength() {
@@ -9,7 +9,7 @@ const Shapes = () => {
   }
 
   return (
-    <div style={{ overflow: 'hidden' }}>
+    <div style={{ overflow: "hidden" }}>
       <svg
         className="svg-shapes"
         xmlns="http://www.w3.org/2000/svg"
@@ -28,14 +28,11 @@ const Shapes = () => {
           />
         ))}
       </svg>
-      <svg style={{ pointerEvents: 'none' }}>
+      <svg style={{ pointerEvents: "none" }}>
         <defs>
           <linearGradient id="bggrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style={{ stopColor: '#E9336B' }} />
-            <stop
-              offset="100%"
-              style={{ stopColor: '#ff8674' }}
-            />
+            <stop offset="0%" style={{ stopColor: "#FFF7AE" }} />
+            <stop offset="100%" style={{ stopColor: "#FF015B" }} />
           </linearGradient>
         </defs>
       </svg>
